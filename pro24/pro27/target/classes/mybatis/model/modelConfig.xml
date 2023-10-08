@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.spring.pro27.member.vo.MemberVO" alias="memberVO" />
+	</typeAliases>
+</configuration>
+
+
+
+
+
+<!--<6>
+설정하는것밖에 없다.
+태그가없어졌는데 연동에 필요한 네항목이 없어쟜다
+datasource태그가 없어졌다
+typeAliases는 빈객체가 아니다 왜냐하면 별칭을 만드는것이기때문에 bean객체를 만들수가없다
+
+
+resource에 폴더를 넣어야한다 : ex)mybatis와 같은것들 왜냐면 실질적 작업이 아니라 소스를 이용하는것이기 때문이다
+mapper랑 model 파일 따로 만들기: 그리고 실행은 이 파일부터 실행하고 -> member.xml이 실행이된다:그래서 meberVO사용할 수 있다
+
+  -->

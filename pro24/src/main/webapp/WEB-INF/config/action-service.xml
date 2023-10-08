@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:tx="http://www.springframework.org/schema/tx"
+	xmlns:aop="http://www.springframework.org/schema/aop"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans   
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+http://www.springframework.org/schema/aop
+http://www.springframework.org/schema/aop/spring-aop-3.0.xsd
+http://www.springframework.org/schema/tx
+http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+	<bean id="memberService"
+		class="com.spring.member.service.MemberServiceImpl">
+		<property name="memberDAO" ref="memberDAO" />
+	</bean>
+
+</beans>
+
+
+<!-- 
+<5> 이곳에는 중간에 new예약어로 쓰는부분을 서블릿에서 만들어줬다
+그리고 남은부분을 이곳에서 처리를 한다
+빈객체 생성 - memberService의 주소가 담겨져있는데 com.spring.member.service.MemberServiceImpl의 주소가 담겨져있다
+객체 생성할때 default 객체에 set을 통한 memberDAO값을 넣어주세요
+로컬 없다
+memberservice에 memberdao필드가 정의되어있다
+
+
+
+
+ -->
