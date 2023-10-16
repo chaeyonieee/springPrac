@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration
+	PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<typeAlias type="com.spring.member.vo.MemberVO" alias="memberVO" />
+	</typeAliases>
+</configuration>
+
+
+
+
+
+<!--<6>
+설정하는것밖에 없다.
+태그가없어졌는데 연동에 필요한 네항목이 없어쟜다
+datasource태그가 없어졌다
+typeAliases는 빈객체가 아니다 왜냐하면 별칭을 만드는것이기때문에 bean객체를 만들수가없다
+
+
+
+  -->
