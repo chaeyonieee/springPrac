@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE tiles-definitions PUBLIC
+"-//Apache Software Foundation//DTD Tiles Configuration 2.0//EN"
+"http://tiles.apache.org/dtds/tiles-config_2_0.dtd">
+<tiles-definitions>
+	<!-- baseLayout : 공통 레이아웃의 뷰 이름 -->
+	<!-- template : 전체 레이아웃을 정하는 JSP의 위치 지정 -->
+	<definition name="baseLayout"
+		template="/WEB-INF/views/common/layout.jsp">
+		<put-attribute name="title" value="" />
+		<put-attribute name="header"
+			value="/WEB-INF/views/common/header.jsp" />
+		<put-attribute name="side"
+			value="/WEB-INF/views/common/side.jsp" />
+		<put-attribute name="body" value="" />
+		<put-attribute name="footer"
+			value="/WEB-INF/views/common/footer.jsp" />
+	</definition>
+
+	<!-- 메인 화면의 뷰 이름 지정 / extends: 기본적인 레이아웃은 baseLayout을 상속받음을 표시 -->
+	<definition name="main" extends="baseLayout">
+		<!-- 레이아웃의 제목에 표시할 구문 지정 -->
+		<put-attribute name="title" value="메인페이지" />
+		<!-- 레이아웃의 본문에 표시할 JSP 지정 -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/main.jsp" />
+	</definition>
+	
+	<definition name="/member/listMembers" extends="baseLayout">
+		<!-- 레이아웃의 제목에 표시할 구문 지정 -->
+		<put-attribute name="title" value="회원목록창" />
+		<!-- 레이아웃의 본문에 표시할 JSP 지정 -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/member/listMembers.jsp" />
+	</definition>
+	
+	<definition name="/member/modMember" extends="baseLayout">
+		<!-- 레이아웃의 제목에 표시할 구문 지정 -->
+		<put-attribute name="title" value="회원상세창" />
+		<!-- 레이아웃의 본문에 표시할 JSP 지정 -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/member/modMember.jsp" />
+	</definition>
+	
+	<definition name="/member/loginForm" extends="baseLayout">  
+		<!-- 레이아웃의 제목에 표시할 구문 지정 --> 
+		<put-attribute name="title" value="로그인창" />
+		<!-- 레이아웃의 본문에 표시할 JSP 지정 -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/member/loginForm.jsp" />
+			
+</definition>			
+			<definition name="/member/memberForm" extends="baseLayout">
+		<!-- 레이아웃의 제목에 표시할 구문 지정 -->
+		<put-attribute name="title" value="회원등록창" />
+		<!-- 레이아웃의 본문에 표시할 JSP 지정 -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/member/memberForm.jsp" />
+	</definition>
+			
+				<definition name="/member/viewDetail" extends="baseLayout">
+		<!-- 레이아웃의 제목에 표시할 구문 지정 -->
+		<put-attribute name="title" value="회원상세창" />
+		<!-- 레이아웃의 본문에 표시할 JSP 지정 -->
+		<put-attribute name="body"
+			value="/WEB-INF/views/member/viewDetail.jsp" />			
+	</definition>
+</tiles-definitions>

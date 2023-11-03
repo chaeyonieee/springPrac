@@ -1,0 +1,26 @@
+
+7월 10, 2023 10:32:03.844 NEW SESSION
+7월 10, 2023 10:32:03.844 [9760:4064:0710/103203.842:ERROR:device_event_log_impl.cc(222)] [10:32:03.843] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+7월 10, 2023 12:53:17.203 [9760:4064:0710/125317.203:ERROR:device_event_log_impl.cc(222)] [12:53:17.202] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+7월 12, 2023 17:39:17.436 NEW SESSION
+7월 12, 2023 17:39:17.436 [13444:4120:0712/173917.434:ERROR:interface_endpoint_client.cc(697)] Message 3 rejected by interface blink.mojom.Widget
+7월 12, 2023 17:39:17.436 [13444:4120:0712/173917.434:ERROR:interface_endpoint_client.cc(697)] Message 6 rejected by interface blink.mojom.WidgetHost
+7월 12, 2023 17:39:17.439 [13444:4120:0712/173917.434:ERROR:interface_endpoint_client.cc(697)] Message 7 rejected by interface blink.mojom.WidgetHost
+7월 12, 2023 17:39:25.177 [13444:10368:0712/173925.177:ERROR:cert_verify_proc_builtin.cc(702)] CertVerifyProcBuiltin for global.ib-ibi.com failed:
+7월 12, 2023 17:39:25.177 ----- Certificate i=0 (CN=*.ib-ibi.com,O=KBM Group LLC,L=Louisville,ST=Colorado,C=US) -----
+7월 12, 2023 17:39:25.177 ERROR: Time is after notAfter
+7월 12, 2023 17:39:25.178 
+7월 12, 2023 17:39:25.178 
+
+7월 13, 2023 12:52:25.123 NEW SESSION
+7월 13, 2023 12:52:25.123 [8044:7080:0713/125225.114:ERROR:device_event_log_impl.cc(222)] [12:52:25.113] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+
+7월 14, 2023 13:47:47.105 NEW SESSION
+7월 14, 2023 13:47:47.105 [4472:9616:0714/134747.096:ERROR:device_event_log_impl.cc(222)] [13:47:47.097] Bluetooth: bluetooth_adapter_winrt.cc:1058 Getting Default Adapter failed.
+
+7월 17, 2023 15:28:14.163 NEW SESSION
+7월 17, 2023 15:28:14.163 [2888:13216:0717/152814.162:ERROR:interface_endpoint_client.cc(697)] Message 0 rejected by interface blink.mojom.WidgetHost
+7월 17, 2023 15:28:40.575 [2888:13216:0717/152840.575:ERROR:interface_endpoint_client.cc(697)] Message 1 rejected by interface blink.mojom.WidgetHost
+7월 17, 2023 16:12:42.982 [2888:13216:0717/161242.982:ERROR:device_event_log_impl.cc(222)] [16:12:42.982] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
+7월 17, 2023 16:42:16.707 [2888:13216:0717/164216.706:ERROR:device_event_log_impl.cc(222)] [16:42:16.706] USB: usb_service_win.cc:104 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: 요소가 없습니다. (0x490)
